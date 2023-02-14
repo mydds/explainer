@@ -1,0 +1,242 @@
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #Dfdce3;
+    margin:1px;
+}
+
+#ExplainMenu, #LikeImMenu {
+  padding: 10px; /* add some padding */
+  font-family: Montserrat; /* set font */
+  color: #333; /* set text color */
+    margin-right:10px;
+    box-shadow: 2px 4px 10px rgba(0, 0, 0.1, 0.2);
+    border: 1px solid whitesmoke;
+}
+
+#DynamicResponse {
+  background-color: #FAFAFA; /* set background color */
+  color: #000; /* set text color */
+  text-align: left; /* center the text */
+  padding: 40px; /* add some padding */
+   padding-left:90px;
+    padding-right:90px;
+  /*margin:0px;
+    margin-left:0px;
+    margin-right:0px;*/
+  font-family: Montserrat; /* set font */
+    font-size: 14px;
+    line-height: 1.5;
+    /*display:flex;*/
+    border: 1px solid lightgray;
+    
+    flex-direction: column;
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.2);
+}
+.navbar-center {
+  text-align: center;
+    background-color: #Dfdce3;
+    padding: 7px;
+    border: 1px solid lightgray;
+}
+nav {
+  display: inline-block;
+    padding-left:20px;
+}
+.menu {
+  padding: 10px;
+  font-family: Montserrat;
+  color: darkgray;
+}
+.dynamic-response-container {
+  background-color: none;
+  text-align: center;
+  color: black;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding:30px;
+    padding-left:100px;
+    padding-right:100px;
+    margin:auto 0;
+    
+   /* border: 1px solid lightgray;*/
+    
+}
+body {
+  /*margin-top: 15%;*/
+    background-color: ghostwhite;
+}
+
+
+.main-content {
+    background-color: black;
+    
+}
+.header {
+  background-color: #02558b; /* aliceblue #FFF3EB change to desired color */
+    font-family: "Montserrat"; /* set font */
+    font-weight:800;
+    font-size: 28px;
+    color: white; /* dimgray*/
+    height:10vw;
+    text-align: center;
+    padding-top: 60px;
+  text-transform: uppercase;
+    padding-left:25px;
+    
+}
+
+#menu a {
+    padding: 7px;
+    text-decoration: none;
+    color: black;
+    font-weight: 900;
+}
+
+/*
+.header::before{
+  content: "";
+  background-image: none;
+  width: 20px; 
+  height: 20px; 
+  position: absolute; 
+  right: 10px; 
+  top: 10px; 
+  display: block;
+}
+
+.header::after{
+  content: "Select from the dropdown menus below..";
+  position: absolute; 
+  right: 30%; 
+  top: 5%; 
+  display: none;
+  padding: 10px;
+  background-color: black;
+  color: white;
+  font-size: 12px;
+  z-index: 1;
+}
+
+.header:hover::after{
+  display: block;
+}
+*/
+
+.hidden {
+    display: none;
+}
+#info-icon {
+  width: 15px;
+  height: 15px;
+  cursor: pointer;
+}
+
+#explainer-textbox {
+  display: none;
+  position: absolute;
+  z-index: 1;
+  background-color: white;
+    color:gray;
+  padding: 8px;
+  border: 1px solid lightgray;
+    font-size: 11px;
+      right: 30%; 
+  top: 16%;
+    text-transform: none;
+    font-weight:100;
+}
+
+#info-icon:hover + #explainer-textbox {
+  display: block;
+}
+
+select:hover {
+    background-color: #ccc8c6;
+    border: 1px solid black;
+    
+}
+select:focus {
+    background-color: aliceblue;
+    border: 1px solid black;
+    outline-color:white;
+    outline:none;
+    
+}
+
+select:active {
+    font-size: 14px;
+    color: #555;
+    background-color: white;
+    border: 1px solid black;
+}
+
+@media only screen and (max-width: 800px) {
+  /* styles for mobile screens */
+  #DynamicResponse {
+    padding: 30px; /* reduce padding */
+     /* padding-left:20px;
+      padding-right:20px;*/
+    font-size: 12px; /* reduce font size */
+  }
+    .dynamic-response-container {
+    padding:30px;
+}
+}
+
+
+
+/*ALL OF BELOW ARE ONLY FOR THE GRANDPA/OTHER SUBPAGES*/
+/*header styling*/
+#grandpaHeader {
+  font-size: 40px;
+  text-align: center;
+  margin-top: 50px;
+  font-family: "Montserrat", sans-serif;
+}
+
+/*dropdown menu styling*/
+#grandpaExplainMenu {
+  font-size: 20px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 20px;
+  width: 50%;
+  display: inline-block;
+  text-align: center;
+}
+
+/*dynamic response box styling*/
+#grandpaDynamicResponse {
+  background-color: #FAFAFA;
+  color: #000;
+  text-align: left;
+  padding: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
+  font-family: Montserrat;
+  font-size: 14px;
+  line-height: 1.5;
+  border: 1px solid lightgray;
+  flex-direction: column;
+  box-shadow: 0 0 7px rgba(0, 0, 0, 0.2);
+  margin-top: 30px;
+}
+
+/*media query for mobile*/
+@media (max-width: 600px) {
+  #grandpaHeader {
+    font-size: 30px;
+  }
+  #grandpaExplainMenu {
+    font-size: 18px;
+    width: 80%;
+  }
+  #grandpaDynamicResponse {
+    padding: 20px;
+    font-size: 12px;
+  }
+}

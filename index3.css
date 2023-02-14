@@ -1,0 +1,508 @@
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #Dfdce3;
+    margin:1px;
+}
+
+#ExplainMenu {
+ font-size: 25px;
+    padding: 0px; /* add some padding */
+  font-family: "Montserrat", sans-serif; /* set font */
+  font-weight:900;
+    color: darkslategray; /* set text color */
+   /* box-shadow: 2px 4px 10px rgba(0, 0, 0.1, 0.2);
+    border: 1px solid whitesmoke;*/
+    background: none;
+    vertical-align: middle;
+    margin-bottom:4px;
+    background: url(//s2.svgbox.net/pen-brushes.svg?ic=brush-1&color=A0FFd3);
+    border:none;
+    text-align:center;
+    display:inline-block;
+    appearance: none;
+   /* max-width:170px;*/
+    width:auto;
+    
+}
+#LikeImMenu {
+ font-size: 25px;
+    padding: 0px; /* add some padding */
+  font-family: "Montserrat", sans-serif; /* set font */
+  font-weight:900;
+    color: darkslategray; /* set text color */
+    margin-right:0px;
+   /* box-shadow: 2px 4px 10px rgba(0, 0, 0.1, 0.2);
+    border: 1px solid whitesmoke;*/
+    background: none;
+    vertical-align: middle;
+    margin-bottom:4px;
+    background: url(//s2.svgbox.net/pen-brushes.svg?ic=brush-1&color=FCFFA0);
+    border:none;
+    text-align:center;
+    width:auto;
+    display:inline-block;
+    appearance: none;
+   /* max-width:200px;*/
+}
+
+
+#DynamicResponse {
+  background-color: #FAFAFA; /* set background color */
+  color: #000; /* set text color */
+  text-align: left; /* center the text */
+  padding: 40px; /* add some padding */
+   padding-left:90px;
+    padding-right:90px;
+  /*margin:0px;
+    margin-left:0px;
+    margin-right:0px;*/
+  font-family: Montserrat; /* set font */
+    font-size: 14px;
+    line-height: 1.5;
+    /*display:flex;*/
+    border: 1px solid lightgray;
+    margin-top:0px;
+    flex-direction: column;
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.2);
+}
+.navbar-center {
+  text-align: center;
+    background-color: #Dfdce3;
+    padding: 7px;
+    border: 1px solid lightgray;
+}
+nav {
+  display: inline-block;
+    padding-left:20px;
+}
+.menu {
+  font-size: 14px;
+    padding: 5px; /* add some padding */
+  font-family: "Montserrat", sans-serif; /* set font */
+  font-weight:900;
+    color: darkslategray; /* set text color */
+    margin-right:0px;
+   /* box-shadow: 2px 4px 10px rgba(0, 0, 0.1, 0.2);
+    border: 1px solid whitesmoke;*/
+    background: none;
+    vertical-align: middle;
+    margin-bottom:4px;
+    background: url(//s2.svgbox.net/pen-brushes.svg?ic=brush-1&color=FCFFA0);
+    border:none;
+    text-align:center;
+    width:auto;
+    display:inline-block;
+    appearance: none;
+}
+.dynamic-response-container {
+  background-color: none;
+  text-align: center;
+  color: black;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding:0px;
+    padding-left:100px;
+    padding-right:100px;
+    margin:auto 0;
+    
+   /* border: 1px solid lightgray;*/
+    
+}
+body {
+  /*margin-top: 15%;*/
+    background-color: whitesmoke;
+    align-content:center;
+}
+
+
+.main-content {
+    background-color: black;
+    
+}
+.header {
+  background-color: none; /* aliceblue #FFF3EB change to desired color */
+    font-family: "Montserrat"; /* set font */
+    font-weight:800;
+    font-size: 28px;
+    color: darkslategray; /* dimgray*/
+    height:8vw;
+    text-align: center;
+    padding-top: 15%;
+  text-transform: none;
+    padding-left:100px;
+    padding-right:100px;
+    
+}
+
+#menu a {
+    padding: 7px;
+    text-decoration: none;
+    color: black;
+    font-weight: 900;
+    font-size:14px;
+}
+
+/*
+.header::before{
+  content: "";
+  background-image: none;
+  width: 20px; 
+  height: 20px; 
+  position: absolute; 
+  right: 10px; 
+  top: 10px; 
+  display: block;
+}
+
+.header::after{
+  content: "Select from the dropdown menus below..";
+  position: absolute; 
+  right: 30%; 
+  top: 5%; 
+  display: none;
+  padding: 10px;
+  background-color: black;
+  color: white;
+  font-size: 12px;
+  z-index: 1;
+}
+
+.header:hover::after{
+  display: block;
+}
+*/
+
+.hidden {
+    display: none;
+}
+#info-icon {
+  width: 15px;
+  height: 15px;
+  cursor: pointer;
+}
+
+#explainer-textbox {
+  display: none;
+  position: absolute;
+  z-index: 1;
+  background-color: white;
+    color:gray;
+  padding: 8px;
+  border: 1px solid lightgray;
+    font-size: 11px;
+      right: 10%; 
+  top: 36%;
+    text-transform: none;
+    font-weight:100;
+}
+
+#info-icon:hover + #explainer-textbox {
+  display: block;
+}
+
+
+
+@media only screen and (max-width: 800px) {
+  /* styles for mobile screens */
+  #DynamicResponse {
+    padding: 30px; /* reduce padding */
+     /* padding-left:20px;
+      padding-right:20px;*/
+    font-size: 12px; /* reduce font size */
+  }
+    .dynamic-response-container {
+    padding:30px;
+}
+    .header {
+  background-color: none; /* aliceblue #FFF3EB change to desired color */
+    font-family: "Montserrat"; /* set font */
+    font-weight:800;
+    font-size: 25px;
+    height:8vw;
+    text-align: center;
+    padding-top: 10%;
+ margin-bottom:30px;
+    padding-left:50px;
+    padding-right:50px;
+    
+}
+}
+
+
+
+/*ALL OF BELOW ARE ONLY FOR THE GRANDPA/OTHER SUBPAGES*/
+/*header styling*/
+#grandpaHeader {
+  font-size: 30px;
+  text-align: center;
+  margin-top: 15%;
+  font-family: "Montserrat", sans-serif;
+    color:darkslategray;
+}
+
+/*dropdown menu styling*/
+#grandpaExplainMenu {
+font-size: 28px;
+    padding: 5px; /* add some padding */
+  font-family: "Montserrat", sans-serif; /* set font */
+  font-weight:900;
+    color: darkslategray; /* set text color */
+    margin-right:0px;
+   /* box-shadow: 2px 4px 10px rgba(0, 0, 0.1, 0.2);
+    border: 1px solid whitesmoke;*/
+    background: none;
+    vertical-align: middle;
+    margin-bottom:4px;
+    background: url(//s2.svgbox.net/pen-brushes.svg?ic=brush-1&color=FCFFA0);
+    border:none;
+    text-align:center;
+    width:auto;
+    display:inline-block;
+    appearance: none;
+    max-width:210px;
+}
+
+/*dynamic response box styling*/
+#grandpaDynamicResponse {
+  background-color: #FAFAFA; /* set background color */
+  color: #000; /* set text color */
+  text-align: left; /* center the text */
+  padding: 40px; /* add some padding */
+   padding-left:90px;
+    padding-right:90px;
+  /*margin:0px;
+    margin-left:0px;
+    margin-right:0px;*/
+  font-family: Montserrat; /* set font */
+    font-size: 14px;
+    line-height: 1.5;
+    /*display:flex;*/
+    border: 1px solid lightgray;
+    
+    flex-direction: column;
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.2);
+}
+
+/*media query for mobile*/
+@media (max-width: 600px) {
+  #grandpaHeader {
+    font-size: 30px;
+  }
+  #grandpaExplainMenu {
+  font-family: Montserrat; /* set font */
+  color: #333; /* set text color */
+    margin-right:10px;
+
+  }
+  #grandpaDynamicResponse {
+    padding: 20px;
+    font-size: 12px;
+  }
+}
+
+
+
+.highlight {
+    background: url(//s2.svgbox.net/pen-brushes.svg?ic=brush-1&color=A0FFd3);
+        margin: -2px -6px;
+        padding:  2px  6px;
+   
+    
+}
+
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+
+select option:hover, select option:active {
+    background-color: #ddd;
+    font-size:10px;
+}
+select:hover {
+    background-color: #ccc8c6;
+   /* border: 1px solid black;*/
+    
+}
+select:focus {
+    background-color: aliceblue;
+    border: 1px solid black;
+    outline-color:white;
+    outline:none;
+    
+}
+
+select:active {
+    font-size: 12px;
+    color: #555;
+    background-color: white;
+   /* border: 1px solid black;*/
+}
+
+
+#grandpaExplainMenu option {
+    font-size: smaller; /* adjust to your desired size */
+}
+
+#grandpaExplainMenu {
+    position: relative;
+}
+
+#grandpaExplainMenu::after {
+    content: "";
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid black;
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+
+.ui segment {
+  width:800px;
+    align-items: center;
+    justify-content: center;
+    padding-left:50px;
+    padding-right:50px;
+}
+/*
+#grandpaHeader {
+    position: relative;
+}
+
+#grandpaHeader::before {
+    content: "grandpa";
+    position: absolute;
+    top: -5px;
+    left: 0;
+    background-color: cyan;
+    box-shadow: inset 0 -50% 0 #fff;
+    padding: 0 5px;
+}
+*/
+
+/*
+.circle-sketch-highlight{
+  position:relative;
+}
+
+.circle-sketch-highlight:before{
+  content:"";
+  z-index:-1;
+  left:-0.5em;
+  top:-0.1em;
+  border-width:2px;
+  border-style:solid;
+  border-color:red;
+  position:absolute;
+  border-right-color:transparent;
+  width:100%;
+  height:1em;
+  transform:rotate(2deg);
+  opacity:0.7;
+  border-radius:50%;
+  padding:0.1em 0.25em;
+}
+
+.circle-sketch-highlight:after{
+  content:"";
+  z-index:-1;
+  left:-0.5em;
+  top:0.1em;
+  padding:0.1em 0.25em;
+  border-width:2px;
+  border-style:solid;
+  border-color:red;
+  border-left-color:transparent;
+  border-top-color:transparent;
+  position:absolute;
+  width:100%;
+  height:1em;
+  transform:rotate(-1deg);
+  opacity:0.7;
+  border-radius:50%;
+}
+*/
+
+
+
+/* Circle */
+
+mark {
+  position: relative;
+  background-color: #fff;
+}
+mark:after {
+  border: .25em solid yellow;
+  border-top: none;
+  border-radius: 1.5em 1em 2em 1.5em;
+  bottom: -.3em;
+  content: '';
+  left: -.3em;
+  position: absolute;
+  right: -.3em;
+  top: -.1em;
+}
+mark:before {
+  border-top: .25em solid yellow;
+  border-radius: .5em;
+  content: '';
+  height: 1em;
+  left: 0;
+  position: absolute;
+  top: -.3em;
+  transform: rotate(-10deg);
+  width: 2em;
+}
+
+
+.circle-sketch-highlight{
+  position:relative;
+    padding-left:800px;
+    width:80%;
+  
+}
+.circle-sketch-highlight:before{
+  content:"";
+  z-index:-1;
+  left:-1.5em;
+  top:-.5em;
+  border-width:1px;
+  border-style:solid;
+  border-color:dimgray;
+  position:absolute;
+  border-right-color:transparent;
+  width:95%;
+  height:3em;
+  transform:rotate(1.5deg);
+  opacity:.9;
+  border-radius:70%;
+  padding:0.4em 0.45em;
+}
+.circle-sketch-highlight:after{
+  content:"";
+  z-index:-1;
+  left:-0.5em;
+  top:-.5em;
+  padding:0.3em 0.5em;
+  border-width:1px;
+  border-style:solid;
+  border-color:dimgray;
+  border-left-color:transparent;
+  border-top-color:transparent;
+  position:absolute;
+  width:90%;
+  height:3em;
+  transform:rotate(-1deg);
+  opacity:1.9;
+  border-radius:50%;
+}

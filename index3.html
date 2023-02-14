@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Quickstarter</title>
+<script src="https://www.gstatic.com/firebasejs/7.19.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.19.1/firebase-database.js"></script>
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyCzAjHYLUSzMAoEJ9tSzM2ff9lT9Zs5jOQ",
+    authDomain: "explainer-367aa.firebaseapp.com",
+    databaseURL: "https://explainer-367aa-default-rtdb.firebaseio.com",
+    projectId: "explainer-367aa",
+    storageBucket: "explainer-367aa.appspot.com",
+    messagingSenderId: "229218716212",
+    appId: "1:229218716212:web:59a7b762c6a56fecfc5861"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+
+<link rel="stylesheet" type="text/css" href="index3.css">
+
+</head>
+<body>
+    <div class="header">
+  <!--content above navbar goes here-->
+ <div class="ui segment">
+       <!--<img src="info.png" alt="info" id="info-icon">
+  <div id="explainer-textbox">
+    <p>Technology in plain language.</p> 
+  </div>-->
+   Explain<select id="ExplainMenu" class="menu">
+      <option value="">Select:</option>
+      </select>like I'm a <select id="LikeImMenu" class="menu">
+    <option value="">Select</option>
+       </select>
+  </div>
+</div>
+<div class="dynamic-response-container">
+  <p id="DynamicResponse"></p>
+</div>
+    <div class="main-content">
+  <!--rest of the page content goes here-->
+           
+</div>
+
+    <!--
+  <select id="ExplainMenu" >
+       <option value=""></option>
+  </select>
+  <select id="LikeImMenu" >
+      <option value=""></option>
+  </select>
+  <p id="DynamicResponse"></p>-->
+  <script src="index3.js"></script>
+</body>
+
+</html>
