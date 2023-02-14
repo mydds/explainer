@@ -245,16 +245,28 @@ select:active {
 @media screen and (max-width: 600px) {
   /* Adjust the size and positioning of the dropdown menus for mobile devices */
   #LikeImMenu, #ExplainMenu {
-    width: 100%;
+    width: 95%;
     margin-bottom: 20px;
   }
 
   /* Adjust the size and positioning of the dynamic response container for mobile devices */
   #DynamicResponse {
-    width: 100%;
+    width: 95%;
     margin-top: 20px;
     margin-bottom: 20px;
     font-size: 1.2em;
+  }
+  .header {
+    font-family: inherit;
+    font-size: 24px;
+  }
+  select {
+    font-family: inherit;
+    font-size: 18px;
+  }
+  #DynamicResponse {
+    font-family: inherit;
+    font-size: 16px;
   }
 }
 
