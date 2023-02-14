@@ -240,3 +240,21 @@ select:active {
     font-size: 12px;
   }
 }
+
+
+@media screen and (max-width: 600px) {
+  /* Adjust the size and positioning of the dropdown menus for mobile devices */
+  #LikeImMenu, #ExplainMenu {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  /* Adjust the size and positioning of the dynamic response container for mobile devices */
+  #DynamicResponse {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 1.2em;
+  }
+}
+
