@@ -259,7 +259,11 @@ select:active {
   .header {
     font-family: inherit;
     font-size: 24px;
-    margin-bottom:20px;
+    margin-bottom:5px;
+      background-color: #000; /* aliceblue #FFF3EB change to desired color */
+    height:auto;
+    padding-top: 5px;
+    padding-left:5px;
   }
   select {
     font-family: inherit;
@@ -268,7 +272,15 @@ select:active {
   #DynamicResponse {
     font-family: inherit;
     font-size: 16px;
-    padding:15px;
+    padding:10px;
+    margin:5px;
   }
+  .navbar-center {
+  text-align: center;
+    background-color: transparent;
+}
+  nav {
+  background-color: transparent;
 }
 
+}
