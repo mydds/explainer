@@ -23,7 +23,7 @@ firebase.database().ref('LikeIm').on('value', function(snapshot) {
 // Listen for onchange event of ExplainMenu dropdown and update LikeImMenu options
 document.getElementById("ExplainMenu").onchange = function() {
     let selectedExplain = this.value;
-    let options = '<option value="">Select ▼</option>';
+    let options = '<option value="">Select ▾</option>';
     if (!selectedExplain) {
         // If ExplainMenu selection is empty, show all options in LikeImMenu
         firebase.database().ref('LikeIm').on('value', function(snapshot) {
