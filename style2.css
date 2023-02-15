@@ -256,38 +256,44 @@ select:active {
     font-family: inherit;
     font-size: 6px;
     height:auto;
-    padding-top: 5px;
+    /*padding-top: 5px;
     padding-bottom: 5px;
-    padding-left:10px;
+    padding-left:10px;*/
+    margin-bottom:10px;
+    width:100%;
     color: #000;
   }
   select {
     font-family: "Montserrat";
-    font-size: 17px;
+    font-size: 20px;
     padding-left:10px;
   }
+  
+  select:focus {
+    background-color: gray;
+    
+}
+  
   #DynamicResponse {
     font-family: "Montserrat";
     font-size: 13px;
     padding-left:30px;
     padding-right:30px;
-    padding-top:15px;
-    padding-bottom:15px;
-    margin-top:5px;
-    width:95%;
+    padding-top:30px;
+    padding-bottom:30px;
+    width:91%;
   }
   .navbar-center {
   text-align: center;
     background-color: transparent;
     padding:5px;
     border: 0px solid;
+    width:100%;
 }
   nav {
   background-color: transparent;
     padding-top:20px;
 }
-  body {
-    border: 1px solid gray;
-  }
+  
 
 }
