@@ -512,8 +512,11 @@ mark:before {
 @media screen and (max-width: 600px) {
   /* Adjust the size and positioning of the dropdown menus for mobile devices */
   #LikeImMenu, #ExplainMenu {
-    width: 50%;
+    width: 40%;
     margin-bottom: 10px;
+    margin-left: 10px;
+    padding-left:15px;
+    font-size:20px;
   }
 
   /* Adjust the size and positioning of the dynamic response container for mobile devices */
@@ -574,7 +577,9 @@ mark:before {
     justify-content: center;
     padding-left:50px;
     padding-right:50px;
+    margin-bottom: 25px;
     font-family:"Montserrat";
+    font-size:24px;
 }
   
 
