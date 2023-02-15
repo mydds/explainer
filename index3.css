@@ -506,3 +506,76 @@ mark:before {
   opacity:1.9;
   border-radius:50%;
 }
+
+
+
+@media screen and (max-width: 600px) {
+  /* Adjust the size and positioning of the dropdown menus for mobile devices */
+  #LikeImMenu, #ExplainMenu {
+    width: 50%;
+    margin-bottom: 10px;
+  }
+
+  /* Adjust the size and positioning of the dynamic response container for mobile devices */
+
+ /* .header {
+    background-color: #000;
+    font-family: inherit;
+    font-size: 3px;
+    height:auto;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    margin-bottom:10px;
+    width:100%;
+    color: #000;
+  }*/
+  select {
+    font-family: "Montserrat";
+    font-size: 20px;
+    padding-left:10px;
+  }
+  
+  
+  #DynamicResponse {
+    font-family: "Montserrat";
+    font-size: 13px;
+    padding-left:30px;
+    padding-right:25px;
+    padding-top:25px;
+    padding-bottom:25px;
+    margin-right:10px;
+    margin-left:10px;
+    margin-top:5px;
+    width:90%;
+  }
+  .navbar-center {
+  text-align: center;
+    background-color: transparent;
+    padding:5px;
+    border: 0px solid;
+    width:95%;
+}
+  nav {
+  background-color: transparent;
+    padding-top:20px;
+}
+  
+  #info-icon {
+  display:none;
+}
+  
+  body {
+  font-family: "Montserrat";
+ 
+}
+  .ui segment {
+  width:80%;
+    align-items: center;
+    justify-content: center;
+    padding-left:50px;
+    padding-right:50px;
+    font-family:"Montserrat";
+}
+  
+
+}
