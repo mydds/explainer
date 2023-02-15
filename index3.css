@@ -517,8 +517,8 @@ mark:before {
     margin-left: 4px;
     margin-right:20px;
     padding-left:25px;
-    margin-top:6px;
-    font-size:19px;
+    margin-top:7px;
+    font-size:20px;
     background: url(//s2.svgbox.net/pen-brushes.svg?ic=brush-1&color=A0FFd3);
   }
 
@@ -577,12 +577,12 @@ mark:before {
   .ui segment {
   width:80%;
     align-items: left;
-    justify-content: left;
+    justify-content: center;
     padding-left:50px;
     /*padding-right:50px;*/
-    margin-bottom: 25px;
+    margin-bottom: 20px;
     font-family:"Montserrat";
-    font-size:23px;
+    font-size:20px;
 }
   
 
