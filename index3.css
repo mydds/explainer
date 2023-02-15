@@ -514,10 +514,12 @@ mark:before {
   #LikeImMenu, #ExplainMenu {
     /*width: 40%;*/
     margin-bottom: 10px;
-    margin-left: 10px;
+    margin-left: 5px;
     margin-right:20px;
     padding-left:25px;
+    margin-top:5px;
     font-size:18px;
+    background: url(//s2.svgbox.net/pen-brushes.svg?ic=brush-1&color=FCFFA0);
   }
 
   /* Adjust the size and positioning of the dynamic response container for mobile devices */
@@ -574,7 +576,7 @@ mark:before {
 }
   .ui segment {
   width:80%;
-    align-items: center;
+    align-items: left;
     justify-content: center;
     padding-left:50px;
     padding-right:50px;
