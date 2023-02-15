@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Quickstarter</title>
+  <title>Explain Like I'm</title>
 <script src="https://www.gstatic.com/firebasejs/7.19.1/firebase-app.js"></script>
 <script src="https://www.gstatic.com/firebasejs/7.19.1/firebase-database.js"></script>
 <script>
@@ -19,23 +19,29 @@
   firebase.initializeApp(firebaseConfig);
 </script>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" type="text/css" href="index3.css">
+
+<link rel="stylesheet" type="text/css" href="style2.css">
 
 </head>
 <body>
     <div class="header">
   <!--content above navbar goes here-->
- <div class="ui segment">
-       <!--<img src="info.png" alt="info" id="info-icon">
+   Explain Like I'm..
+        <img src="info.png" alt="info" id="info-icon">
   <div id="explainer-textbox">
     <p>Technology in plain language.</p> 
-  </div>-->
-   Explain<select id="ExplainMenu" class="menu">
-      <option value="">Select:</option>
-      </select><br>Like I'm<select id="LikeImMenu" class="menu">
-    <option value="">Select</option>
-       </select><br>
+      <!--Simplifying technology for everyone-->
   </div>
+</div>
+    <div class="navbar-center">
+  <nav>
+    <select id="ExplainMenu" class="menu">
+      <option value="">Select:</option>
+      </select>
+    <select id="LikeImMenu" class="menu">
+      <option value="">Select</option>
+      </select>
+  </nav>
 </div>
 <div class="dynamic-response-container">
   <p id="DynamicResponse"></p>
@@ -53,7 +59,7 @@
       <option value=""></option>
   </select>
   <p id="DynamicResponse"></p>-->
-  <script src="index3.js"></script>
+  <script src="app2.js"></script>
 </body>
 
 </html>
