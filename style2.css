@@ -256,11 +256,11 @@ select:active {
     font-family: inherit;
     font-size: 6px;
     height:auto;
-    /*padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left:10px;*/
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left:10px;
     margin-bottom:10px;
-    width:100%;
+    width:95%;
     color: #000;
   }
   select {
@@ -277,18 +277,20 @@ select:active {
   #DynamicResponse {
     font-family: "Montserrat";
     font-size: 13px;
-    padding-left:30px;
-    padding-right:30px;
-    padding-top:30px;
-    padding-bottom:30px;
-    width:91%;
+    padding-left:25px;
+    padding-right:25px;
+    padding-top:25px;
+    padding-bottom:25px;
+    margin-right:10px;
+    margin-left:10px;
+    width:90%;
   }
   .navbar-center {
   text-align: center;
     background-color: transparent;
     padding:5px;
     border: 0px solid;
-    width:100%;
+    width:95%;
 }
   nav {
   background-color: transparent;
