@@ -258,12 +258,11 @@ select:active {
   }
   .header {
     font-family: inherit;
-    font-size: 24px;
-    margin-bottom:5px;
-      background-color: #000; /* aliceblue #FFF3EB change to desired color */
+    font-size: 16px;
     height:auto;
     padding-top: 5px;
-    padding-left:5px;
+    padding-bottom: 5px;
+    padding-left:10px;
   }
   select {
     font-family: inherit;
@@ -271,16 +270,23 @@ select:active {
   }
   #DynamicResponse {
     font-family: inherit;
-    font-size: 16px;
-    padding:10px;
+    font-size: 13px;
+    padding-left:20px;
+    padding-right:20px;
+    padding-top:10px;
+    padding-bottom:10px;
     margin:5px;
   }
   .navbar-center {
   text-align: center;
     background-color: transparent;
+    padding:5px;
+    border:none;
 }
   nav {
   background-color: transparent;
+    padding-top:20px;
+    border: none;
 }
 
 }
