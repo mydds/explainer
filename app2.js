@@ -10,7 +10,7 @@ firebase.database().ref('Explain').on('value', function(snapshot) {
 
 // Read data from LikeIm node and set options for LikeImMenu dropdown
 firebase.database().ref('LikeIm').on('value', function(snapshot) {
-  let options = '<option value="">Like Im:</option>';
+  let options = '<option value="">Like I\'m:</option>';
   snapshot.forEach(function(childSnapshot) {
     options += `<option value="${childSnapshot.val().name}">${childSnapshot.val().name}</option>`;
   });
