@@ -512,11 +512,11 @@ mark:before {
 @media screen and (max-width: 600px) {
   /* Adjust the size and positioning of the dropdown menus for mobile devices */
   #LikeImMenu, #ExplainMenu {
-    width: 40%;
+    /*width: 40%;*/
     margin-bottom: 10px;
-    margin-left: 10px;
-    padding-left:15px;
-    font-size:20px;
+    margin-left: 20px;
+    padding-left:20px;
+    font-size:16px;
   }
 
   /* Adjust the size and positioning of the dynamic response container for mobile devices */
@@ -548,7 +548,7 @@ mark:before {
     padding-bottom:25px;
     margin-right:10px;
     margin-left:10px;
-    margin-top:5px;
+    margin-top:40px;
     width:90%;
   }
   .navbar-center {
@@ -577,7 +577,7 @@ mark:before {
     justify-content: center;
     padding-left:50px;
     padding-right:50px;
-    margin-bottom: 25px;
+    margin-bottom: 50px;
     font-family:"Montserrat";
     font-size:24px;
 }
